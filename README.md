@@ -1,89 +1,83 @@
-# Next.js Starter Template
 
-Welcome to the **Next.js Starter Template**! This repository is designed to kickstart your Next.js projects with essential tools and modern libraries. It includes a set of pre-configured dependencies to help you build scalable, maintainable, and feature-rich web applications efficiently.
+## Finance SaaS Platform  
 
-## Features
+### 📋 <a name="table">Table of Contents</a>  
 
-- **[Next.js](https://nextjs.org/):** A React framework for production-grade web applications.
-- **[shadcn](https://shadcn.dev/):** Pre-styled, accessible, and customizable components for rapid UI development.
-- **[React Hook Form](https://react-hook-form.com/):** Simple and flexible form handling.
-- **[Zod](https://zod.dev/):** Type-safe schema validation and parsing.
-- **[Tailwind CSS](https://tailwindcss.com/):** Utility-first CSS framework for custom designs.
-- **[Axios](https://axios-http.com/):** Promise-based HTTP client for making API requests.
-- **[date-fns](https://date-fns.org/):** Modern JavaScript date utility library.
+1. 🤖 [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Features](#features)  
+4. 🤸 [Quick Start](#quick-start)  
 
----
+### <a name="introduction">🤖 Introduction</a>  
 
-## Getting Started
+The Finance SaaS Platform is a comprehensive solution for financial management. It provides robust tools for tracking income, expenses, and investments with advanced analytics. Built with Next.js for the frontend, TypeScript for type safety, and styled with TailwindCSS, the platform delivers a secure, user-friendly, and responsive experience for managing personal or business finances.  
 
-Follow these steps to get up and running:
+### <a name="tech-stack">⚙️ Tech Stack</a>  
 
-### 1. Clone the Repository
+- Next.js  
+- TypeScript  
+- Tailwind CSS  
 
-```bash
-git clone https://github.com/your-username/nextjs-starter.git
-cd nextjs-starter
-```
+### <a name="features">🔋 Features</a>  
 
-### 2. Install Dependencies
+👉 **Income & Expense Tracking**: Simplifies financial tracking with intuitive tools.  
 
-Make sure you have [Node.js](https://nodejs.org/) installed. Then, run:
+👉 **Analytics Dashboard**: Gain actionable insights with detailed financial data visualizations.  
 
-```bash
-npm install
-# or
-yarn install
-```
+👉 **Budget Management**: Helps users set and track monthly or annual budgets.  
 
-### 3. Run Development Server
+👉 **Secure Authentication**: User login and data management with high-level security.  
 
-Start the development server:
+👉 **Modern Design**: Built with TailwindCSS for a clean and seamless UI/UX.  
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+👉 **Responsiveness**: Fully optimized for all screen sizes.  
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see your application.
+and more, enhancing financial literacy and decision-making!  
 
----
+### <a name="quick-start">🤸 Quick Start</a>  
 
-## Project Structure
+Follow these steps to set up the project locally.  
 
-Here is an overview of the project structure:
+**Prerequisites**  
 
-```
-├── public          # Static assets (images, icons, etc.)
-├── src             # Source code
-│   ├── components  # Reusable UI components
-│   ├── hooks       # Custom React hooks
-│   ├── lib         # Utility functions and configurations
-├── .env.local      # Environment variables (example provided)
-├── tailwind.config.js # Tailwind CSS configuration
-└── next.config.js  # Next.js configuration
-```
+Ensure you have the following installed:  
 
----
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/en)  
+- [npm](https://www.npmjs.com/) (Node Package Manager)  
 
-## Scripts
+**Cloning the Repository**  
 
-Here are some useful scripts included in the project:
+```bash  
+git clone https://github.com/santhosh-kumar-barigeda/wealth-wise.git  
+cd wealth-wise  
+```  
 
-- `dev`: Run the development server.
-- `build`: Build the application for production.
-- `start`: Start the production server.
-- `lint`: Lint the codebase using ESLint.
-- `format`: Format code with Prettier.
+**Installation**  
 
----
+Install dependencies:  
 
-## Configuration
+```bash  
+npm install  
+```  
 
-### Environment Variables
+**Set Up Environment Variables**  
 
-Create a `.env.local` file in the root directory for your environment variables. An example file is provided as `.env.local.example`.
+Create a `.env.local` file in the root directory and add:  
 
-### Tailwind CSS
+```env  
+NEXT_PUBLIC_API_URL=  
+NEXT_PUBLIC_API_KEY=  
+```  
 
-Tailwind CSS is pre-configured in the `tailwind.config.js` file. You can extend or customize it as per your needs.
+Replace placeholder values with your API credentials.  
+
+**Running the Project**  
+
+```bash  
+npm run dev  
+```  
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.  
+
+--- 
